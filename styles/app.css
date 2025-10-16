@@ -1,0 +1,199 @@
+/* -------- Header -------- */
+.header {
+    max-width: 1000px;
+}
+
+.hidden {
+    display: none;
+}
+
+.page-title h2 {
+    font-family: 'Poppins SemiBold';
+}
+
+.search-box {
+    background-color: #f4f4f4;
+    max-width: 400px;
+    flex: 0 0 auto;
+}
+
+.search-box-input {
+    background-color: #f4f4f4;
+    font-family: 'Poppins Regular';
+}
+
+.header-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-wrapper {
+    background-color: #d8ddf4;
+    width: 35px;
+    height: 35px;
+}
+.icon-wrapper:hover{
+    cursor: pointer;
+}
+.user {
+    border-radius: 20px;
+}
+
+.user-name h3 {
+    font-size: large;
+}
+
+.user-name p {
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+}
+
+/* -------- Sidebar -------- */
+.sidebar {
+    max-width: 250px;
+    padding-right: 20px;
+    height: 100vh;
+}
+
+.moodify {
+    font-family: 'Poppins SemiBold';
+    font-size: 25px;
+    color: black;
+}
+
+.moodify-wrapper {
+    padding-left: 15px;
+}
+
+.sidebar li {
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.sidebar li {
+    transition: background-color 0.2s ease;
+}
+
+.sidebar li:hover {
+    background-color: #93A5FF;
+    cursor: pointer;
+}
+
+/* -------- Start Main -------- */
+main {
+    width: 84%;
+    height: 1000px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* =============== COMMON CARD STYLES =============== */
+.pending-item,
+.cancel-item {
+    background: #fff;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.25s ease-in-out;
+}
+
+.pending-item:hover,
+.cancel-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.patient-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #111;
+}
+
+.doctor-name {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.session-type {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #93A5FF;
+}
+
+.time {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+/* =============== BUTTONS =============== */
+.btn-accept {
+    background-color: #93A5FF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.35rem 1rem;
+}
+
+.btn-accept:hover {
+    background-color: #7f90f5;
+}
+
+.btn-reject {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #555;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.35rem 1rem;
+}
+
+.btn-reject:hover {
+    background-color: #f7f7f7;
+}
+
+.btn-notify {
+    background-color: #93A5FF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.4rem 1rem;
+}
+
+.btn-notify:hover {
+    background-color: #7f90f5;
+}
+
+/* =============== SECTION TITLES =============== */
+h4 {
+    font-weight: 600;
+    color: #333;
+}
+
+/* =============== LAYOUT SPACING =============== */
+.pending-list,
+.cancelled-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
