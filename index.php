@@ -330,7 +330,6 @@
       });
     }
 
-    // شروع کار
     fetch(getAllDaysUrl)
       .then(res => res.json())
       .then(createDayButtons)
@@ -338,5 +337,6 @@
   </script>
 
 </body>
+
 
 </html>
